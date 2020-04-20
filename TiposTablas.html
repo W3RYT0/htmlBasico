@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+	<title>Tipos de Tablas</title>
+  </head>
+  <body>
+	<!-- Tabla básica-->
+	<table>
+	   <tr>
+		  <td>Alumno</td><td>Calificación</td>
+	   </tr>
+	   <tr>
+		  <td>Pepe</td><td>7.65</td>
+	   </tr>
+	   <tr>
+	      <td>María</td><td>8.54</td>
+	   </tr>
+	   <tr>
+	      <td>Jordi</td><td>5.55</td>
+	   </tr>
+	</table>
+	<br/>
+	<!-- Tabla con Titulos-->
+	<table>
+	   <tr>
+		  <th>Alumno</th><th>Calificación</th>
+	   </tr>
+	   <tr>
+		  <td>Pepe</td><td>7.65</td>
+	   </tr>
+	   <tr>
+	      <td>María</td><td>8.54</td>
+	   </tr>
+	   <tr>
+	      <td>Jordi</td><td>5.55</td>
+	   </tr>
+	</table>
+	<br/>
+	<!-- Tabla con Titulos y estructurada-->
+	<table>
+		<thead>
+			<tr>
+				<th>Alumno</th><th>Calificación</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Pepe</td><td>7.65</td>
+			</tr>
+			<tr>
+				<td>María</td><td>8.54</td>
+			</tr>
+			<tr>
+				<td>Jordi</td><td>58.55</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>MEDIA</td><td>7.25</td>
+			</tr>
+			<tr>
+				<td>DESV. TÍPICA</td><td>7.35</td>
+			</tr>
+		</tfoot>
+	</table>
+	<br/>
+	<!-- Tabla con Titulos, estructurada y con Texto general-->
+	<table>
+		<caption>Tabla de calificaciones</caption>
+		<thead>
+			<tr>
+				<th>Alumno</th><th>Calificación</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Pepe</td><td>7.65</td>
+			</tr>
+			<tr>
+				<td>María</td><td>8.54</td>
+			</tr>
+			<tr>
+				<td>Jordi</td><td>58.55</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>MEDIA</td><td>7.25</td>
+			</tr>
+			<tr>
+				<td>DESV. TÍPICA</td><td>7.35</td>
+			</tr>
+		</tfoot>
+	</table>
+	<br/>
+	<!-- Tabla con Titulos, estructurada, con Texto general y celdas conbinadas-->
+	<table>
+		<caption>Ingresos</caption>
+		<thead>
+			<tr>
+				<th colspan="2">2020</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2">Enero</td><td>$1000.00</td>
+			</tr>
+			<tr>
+				<td>$500.00</td>
+			</tr>
+			<tr>
+				<td>Febrero</td><td>$750.00</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>Total</th><td>$2250.00</td>
+			</tr>
+		</tfoot>
+	</table>
+  </body>
+</html>
